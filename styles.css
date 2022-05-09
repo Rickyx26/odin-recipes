@@ -1,0 +1,58 @@
+html{
+    min-height: 20vh;
+    background: linear-gradient(90deg, rgb(153,122,184), rgb(204,189,219 ));
+}
+
+h1{
+    color: #997AB8;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.a { 
+    color:white;
+    width:200px;
+    height:200px;
+    font-size:30px;
+}
+.a-card {
+    max-width: 100%;
+    height:200px;
+    object-fit:cover;
+    border-radius: 40%;
+}
+
+.b {
+    color:white;
+    width:200px;
+    height:200px;
+    font-size:30px;
+    position:absolute;
+    right:1%;
+    top:22.5%;
+ }
+ .b-card{
+     max-width: 100%;
+    height:200px;
+    object-fit:cover;
+    border-radius: 40%;
+ }
+
+ .c {
+     color:white;
+     width:200px;
+     height:200px;
+     font-size:30px;
+     position:absolute;
+     top:80%;
+     left:50%;
+     transform: translate(-60%,-50%);   
+ }
+
+ .c-card{
+    max-width: 100%;
+    height:200px;
+    object-fit:cover;
+    border-radius: 100%;
+ }
